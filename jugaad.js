@@ -1,4 +1,4 @@
-let no_of_post = 4
+let no_of_post = 6
 
 let delay_in_ms = 15000 
 
@@ -8,7 +8,7 @@ setInterval(function(){
        return response.json();
     })
     .then(data => {
-        for(let i = 0; i < Object.keys(data).length; i++){
+        for(let i = 0; i < no_of_post; i++){
             setTimeout(function () {
                 document.getElementById('profile_pic').src = data[i]['profile_pic']
                 document.getElementById('username').innerText = data[i]['username']
