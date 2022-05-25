@@ -7,7 +7,8 @@ body{
     width: 100vw;
     display: flex;
     justify-content: center;
-    background-image: url(https://64.media.tumblr.com/6355071c1585218fff9ac9c2ef30101a/tumblr_pe0yjgo5hv1qeyvpto1_500.gif);
+    background-image: url("bg.gif");
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
