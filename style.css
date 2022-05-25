@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    background-image: url(https://64.media.tumblr.com/6355071c1585218fff9ac9c2ef30101a/tumblr_pe0yjgo5hv1qeyvpto1_500.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.post-frame{
+    padding: 2.2rem;
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    -webkit-backdrop-filter: blur( 60px );
+    border-radius: 3.2rem;
+    outline: 0.4rem solid;
+    outline-color: #51516095;
+    background: linear-gradient(151.23deg, rgba(11, 5, 20, 0.68) 0%, rgba(35, 27, 50, 0.63) 100%);
+    backdrop-filter: blur(40px);
+    max-width: 100%;
+}
+
+.top-section{
+    display: flex;
+    align-items: center;
+    column-gap: 16px;
+    max-width: 100%;
+    margin-bottom: 2.2rem;
+}
+
+.profile-pic{
+    border-radius: 100%;
+    height: 4.4rem;
+    width: 4.4rem;
+    margin-left: 1rem;
+}
+
+.profile-name{
+    color: #CAC8D9;
+    font-weight: 500;
+    font-size: 2.6rem;
+    overflow: hidden;
+    width: 100%;
+    margin-left: 1.6rem;
+    padding-bottom: 0.2rem;
+}
+
+.image-section{
+    border-radius: 2rem;
+    max-width: 100%;
+}
+
+.caption-section{
+    color: rgb(206, 211, 221);
+    width: 100%;
+    padding: 0 0.5rem;
+    font-size: 2rem;
+    max-height: 20%;
+    overflow: hidden;
+}
+
+.icon-section{
+    display: flex;
+    align-content: space-between;
+    align-items: center;
+    margin: 2rem auto;
+}
+
+.right-section{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    width: 90%;
+}
+
+.like{
+    height: 2.2rem;
+    margin: 0 2rem 0 0.4rem ;
+}
+
+.comment{
+    height: 2.2rem;
+    margin: 0 2rem 0 0;
+}
+
+.share{
+    height: 2rem;
+    margin: 0;
+}
+
+.save{
+    height: 2.4rem;
+    margin-left: 1.8%;
+}
+
+.left-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10%;
+}
+
+.username{
+    font-weight: bold;
+    font-size: 2.2rem;
+    margin-right: 1.6%;
+    color: rgb(232, 233, 234);
+}
