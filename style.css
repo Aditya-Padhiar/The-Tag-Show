@@ -3,14 +3,17 @@
 }
 
 body{
-    height: 100vh;
-    width: 100vw;
-    display: flex;
-    justify-content: center;
     background-image: url("bg.gif");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    transform: rotate(90deg);
 }
 
 .post-frame{
@@ -22,14 +25,14 @@ body{
     outline-color: #51516095;
     background: linear-gradient(151.23deg, rgba(11, 5, 20, 0.68) 0%, rgba(35, 27, 50, 0.63) 100%);
     backdrop-filter: blur(40px);
-    max-width: 100%;
+    width: min-content;
+    margin: auto;
 }
 
 .top-section{
     display: flex;
     align-items: center;
     column-gap: 16px;
-    max-width: 100%;
     margin-bottom: 2.2rem;
 }
 
@@ -45,22 +48,21 @@ body{
     font-weight: 500;
     font-size: 2.6rem;
     overflow: hidden;
-    width: 100%;
     margin-left: 1.6rem;
     padding-bottom: 0.2rem;
 }
 
 .image-section{
     border-radius: 2rem;
-    max-width: 100%;
+    display: block;
+    min-width: 55vh;
+    max-width: 60vh;
 }
 
 .caption-section{
     color: rgb(206, 211, 221);
-    width: 100%;
     padding: 0 0.5rem;
     font-size: 2rem;
-    max-height: 20%;
     overflow: hidden;
 }
 
@@ -75,7 +77,6 @@ body{
     display: flex;
     align-items: center;
     align-content: center;
-    width: 90%;
 }
 
 .like{
@@ -102,12 +103,10 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 10%;
 }
 
 .username{
     font-weight: bold;
     font-size: 2.2rem;
-    margin-right: 1.6%;
     color: rgb(232, 233, 234);
 }
